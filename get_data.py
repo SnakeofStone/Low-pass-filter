@@ -40,7 +40,7 @@ sigma = np.around(sigma, decimals=2)
 delta_t = 1e-3
 filtered = np.zeros(angles.shape)
 
-alfa = 0.1
+alfa = 0.25
 
 filtered[:, 0] = alfa * angles[:, 0]            # Store first value of each
                                                 # axis multiplied by alfa
